@@ -17,8 +17,8 @@ public class MailConfiguration {
         JavaMailSenderImpl javaMailSender  = new JavaMailSenderImpl();
         javaMailSender.setHost("smtp.gmail.com");
         javaMailSender.setPort(587);
-        javaMailSender.setUsername("geekstutorialemail2020@gmail.com");
-        javaMailSender.setPassword("gfgjbdl20212021");
+        javaMailSender.setUsername("");
+        javaMailSender.setPassword("");
         Properties properties = new Properties();
         properties.put("mail.smtp.starttls.enable","true");
         properties.put("mail.debug","true");
